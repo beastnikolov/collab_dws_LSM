@@ -1,3 +1,7 @@
 html {
     font-size: 1.2rem !important;
 }
+
+.mlink {
+    text-decoration: none;
+}

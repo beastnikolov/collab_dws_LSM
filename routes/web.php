@@ -4,6 +4,7 @@ use App\Http\Controllers\AfiliadosController;
 use App\Http\Controllers\ContactoController;
 use App\Http\Controllers\DirectorioController;
 use App\Http\Controllers\InicioController;
+use App\Http\Controllers\VerController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,3 +23,7 @@ Route::get('/', [InicioController::class,'inicio'])->name('inicio');
 Route::get('directorio', [DirectorioController::class,'directorio'])->name('directorio');
 Route::get('afiliados', [AfiliadosController::class,'afiliados'])->name('afiliados');
 Route::get('contacto', [ContactoController::class,'contacto'])->name('contacto');
+Route::get('ver/{id}', [VerController::class, 'verPelicula'])->name('ver');
+
+Route::get('buscar', [DirectorioController::class,'buscar']);
+Route::get('filtrar', [DirectorioController::class,'sort']);

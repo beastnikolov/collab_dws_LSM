@@ -16,7 +16,7 @@ class MovieSeeder extends Seeder
     {
         DB::table('movies')->insert([
             'titulo' => 'Cadena Perpetua',
-            'imagen' => 'https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY1200_CR89,0,630,1200_AL_.jpg',
+            'imagen' => 'https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg',
             'genero' => 'Drama',
             'sinopsis' => 'En 1947, Andrew Dufresne (Tim Robbins), vicepresidente de un importante banco de Portland, Maine, es juzgado por el homicidio de su esposa y de un hombre con quien ella tenía una aventura. Aunque insiste con su inocencia, las pruebas son motivo suficiente para que el juez lo condene a cumplir dos cadenas perpetuas en la prisión estatal de Shawshank.
             Al llegar a la cárcel se percata de lo duro que es el ambiente, los guardias no ahorran esfuerzos en disciplinar a los reclusos con los métodos más crueles, especialmente el jefe, Byron Hadley (Clancy Brown). Este régimen del terror cuenta con la aprobación del alcaide de la prisión, Samuel Norton (Bob Gunton).
@@ -78,7 +78,7 @@ class MovieSeeder extends Seeder
             'genero' => 'Acción',
             'sinopsis' => 'John McClane (Bruce Willis) es un policía de Nueva York que visita la ciudad de Los Ángeles para reconciliarse con su exesposa, Holly Gennaro (Bonnie Bedelia), quien se encuentra en una fiesta de Navidad en el edificio Nakatomi Plaza, piso 30, propiedad de un japonés: Joe Takagi. John es llevado al Nakatomi Plaza en una limusina conducida por un joven llamado Argyle, de quien se gana su confianza y se hacen buenos amigos. John sube al piso 30, donde es recibido por japoneses que lo conducen hasta donde está su esposa.
             Pronto el Nakatomi Plaza es tomado por 13 terroristas: Carl, Franco, Tony, Theo, Alexander, Marco, Kristoff, Eddie, Uli, Heinrich, Fritz, James y su jefe Hans Gruber (Alan Rickman). Todos ellos equipados con ametralladoras y armas automáticas (Hans con una pistola) en el momento en que John se estaba aseando en el baño. Logra escapar sin ser visto, con pantalón y una camiseta, pero sin zapatos. Los terroristas se presentan en la fiesta del piso 30 buscando al señor Takagi para darle a Nakatomi Corporations una lección de lo que codicia. Hans y unos cuantos escoltas llevan a Takagi al salón principal mientras John, armado con una pistola, los sigue. Hans interroga a Takagi sobre el código para abrir la bóveda del Nakatomi Plaza y admite que utiliza el terrorismo como señuelo mientras trata de robar los 640 millones de dólares que hay en la bóveda. Takagi rehúsa a decir la clave y es asesinado por Hans mientras McClane observa la escena escondido. McClane activa una alarma contra incendios para que los terroristas lo descubran e intenta atraer la ayuda de la policía. McClane asesina al hermano de Karl, Tony, poniéndolo furioso. McClane toma su ametralladora y el radio portátil comunicador y escribe en su camisa, «Ahora tengo una ametralladora. ¡Jo, Jo, Jo!», para enviarlo en el elevador al piso 30 como un mensaje para Hans.',
-            'pais' => '20th Century Fox',
+            'pais' => 'USA',
             'productora' => 'Silver Pictures',
             'nota' => 8.2,
             'añoestreno' =>  '1988'

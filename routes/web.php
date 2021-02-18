@@ -22,3 +22,4 @@ Route::get('/', [InicioController::class,'inicio'])->name('inicio');
 Route::get('directorio', [DirectorioController::class,'directorio'])->name('directorio');
 Route::get('afiliados', [AfiliadosController::class,'afiliados'])->name('afiliados');
 Route::get('contacto', [ContactoController::class,'contacto'])->name('contacto');
+Route::get('enviar-email', [ContactoController::class,'enviar_email'])->name('enviar-email');
